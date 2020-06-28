@@ -1,0 +1,22 @@
+{
+  "name": "app",
+  "version": "1.0.0",
+  "main": "index.js",
+  "license": "MIT",
+  "scripts": {
+    "dev": "npm install && nodemon --exec babel-node index.js ",
+    "start:prod": "npm install && node index.js",
+    "start": "npm install && node index.js"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.3",
+    "@babel/node": "^7.6.3",
+    "@babel/preset-env": "^7.6.3",
+    "nodemon": "^1.19.3"
+  },
+  "dependencies": {
+    "babel-node": "^0.0.1-security",
+    "bcryptjs": "^2.4.3",
+    "express": "^4.17.1"
+  }
+}
