@@ -17,6 +17,6 @@
   "dependencies": {
     "babel-node": "^0.0.1-security",
     "bcryptjs": "^2.4.3",
-    "express": "^4.17.1"
+    "express": "^4.17.3"
   }
 }
